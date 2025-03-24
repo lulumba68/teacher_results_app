@@ -1,0 +1,7 @@
+CREATE TABLE teachers (
+    username TEXT PRIMARY KEY,
+    password TEXT NOT NULL
+);
+
+INSERT INTO teachers (username, password) VALUES ('teacher1', 'password123');
+INSERT INTO teachers (username, password) VALUES ('teacher2', 'securepass');
